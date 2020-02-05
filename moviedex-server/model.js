@@ -38,5 +38,5 @@ let movieController = {
   
 
 module.exports = {
-   // movieController
+   movieController
 };
