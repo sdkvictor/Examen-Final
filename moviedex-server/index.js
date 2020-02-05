@@ -3,8 +3,8 @@ let bodyParser = require( 'body-parser' );
 let mongoose = require( 'mongoose' );
 let jsonParser = bodyParser.json();
 let { DATABASE_URL, PORT } = require( './config' );
-//let {movieController} = require('./model');
-//let uuid = require( 'uuid/v4' );
+let {movieController} = require('./model');
+let uuid = require( 'uuid/v4' );
 
 
 let app = express();
