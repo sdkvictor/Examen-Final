@@ -49,7 +49,7 @@ app.post("/api/moviedexpost", jsonParser, (req, res) => {
 
 
   app.get('/api/moviedex', (req, res) => {
-	mmovieController
+	movieController
 	.getAll()
         .then(movies => {
             return res.status(200).json(movies)
